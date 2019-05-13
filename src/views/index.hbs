@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img src="software.jpg" alt="Software Video Edition" class="card-img-top">
+            <div class="card-body">
+                <h2>30 $</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ea veniam distinctio? Eos, alias veritatis.
+                </p>
+            </div>
+            <div class="card-footer">
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_E1IrKFU2MxUNoVH82qWrSRXl00RtJJ3C6Z" data-amount="3000" data-name="Software Store"
+                        data-description="Software Video Editing" data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                        data-locale="auto">
+                        </script>
+                        <script>
+                            document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                        </script>
+                        <button class="btn btn-dark btn-block">Buy <i class="fas fa-shopping-cart"></i></button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
